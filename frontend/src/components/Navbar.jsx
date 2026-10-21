@@ -11,15 +11,23 @@ export default function Navbar() {
     <header className="w-full bg-linear-to-r from-[#F8F6F0] to-[#E8DCC4] px-5 py-3 flex items-center justify-between fixed top-0 z-50 border-b border-[#E5E2D9]">
       
       {/* Left: Logo */}
-      <a href="#home" className="flex items-center gap-3" onClick={closeMenu}>
-        <img src={logo} alt="Zulfay Zahra Logo" className="w-22 h-15 object-cover" />
-        
-        <div className="flex flex-col">
-          <h1 className="font-serif text-xl md:text-2xl font-bold tracking-[0.1em] text-[#2D2D2D] uppercase leading-tight">
-            Zulfay Zahra
-          </h1>
-        </div>
-      </a>
+     <a
+  href="#home"
+  className="flex items-center gap-3"
+  onClick={closeMenu}
+>
+  <img
+    src={logo}
+    alt="Zulfay Zahra Logo"
+    className="w-12 h-12 md:w-14 md:h-14 object-contain"
+  />
+
+  <div className="flex flex-col">
+    <h1 className="font-serif text-xl md:text-2xl font-bold tracking-[0.1em] text-[#2D2D2D] uppercase leading-tight">
+      Zulfay Zahra
+    </h1>
+  </div>
+</a>
 
       {/* Center: Navigation Links */}
       <nav className="hidden lg:flex items-center space-x-7 text-[13px] font-medium text-gray-700">
