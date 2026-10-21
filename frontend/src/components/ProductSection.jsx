@@ -9,7 +9,7 @@ export default function ProductSection() {
         <div className="relative flex justify-center">
           {/* Best Seller Badge (Gol aur elegant) */}
           <span className="absolute top-4 left-4 md:top-8 md:left-8 bg-[#5A6B4E] text-white text-[10px] font-bold px-2 py-2 rounded-full z-10 w-[72px] h-[72px] flex items-center justify-center text-center leading-tight tracking-wider">
-            BEST<br/>SELLER
+            30%<br/>OFF
           </span>
           
           {/* Image Container (bina kisi extra white box ke) */}
@@ -42,6 +42,7 @@ export default function ProductSection() {
 
           {/* Price */}
           <p className="text-2xl font-semibold mb-5 text-[#222222]">Rs. 480</p>
+          <p className="text-xl  mb-5 text-[#424141] line-through">Rs. 685</p>
           
           {/* Description */}
           <p className="text-gray-600 mb-8 text-[15px] leading-relaxed max-w-md">
@@ -50,7 +51,7 @@ export default function ProductSection() {
           
           {/* WhatsApp Order Link (Same as your screenshot) */}
           <a 
-            href="https://wa.me/923001234567" 
+            href="https://wa.me/+923104621386" 
             target="_blank" 
             rel="noreferrer" 
             className="flex bg-green-400 h-10 w-10 border-2 border-b-emerald-700 rounded-full p-3 items-center text-[13px] font-medium text-green-700 transition-colors w-fit"
