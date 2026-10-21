@@ -2,7 +2,7 @@ import bottleImg from '../assets/hero.jpeg'
 
 export default function Hero() {
   return (
-    <section id="home" className="w-full relative bg-[#F8F6F0]">
+    <section id="home" className="w-full relative bg-[#F8F6F0] mt-20">
       <img 
         src={bottleImg} 
         alt="Zulfay Zahra Hair Oil" 

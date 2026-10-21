@@ -25,21 +25,21 @@ export default function WhyChoose() {
   ]
 
   return (
-    <section id="about" className="py-20 px-6 bg-[#F8F6F0]">
+    <section id="about" className="py-15 px-4  bg-linear-to-r from-[#F8F6F0] to-[#E8DCC4]">
       <div className="max-w-6xl mx-auto text-center">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-serif text-[#222222] mb-16">
+        <h2 className="text-2xl md:text-3xl font-serif text-[#222222] mb-16">
           Why Choose Zulfay Zahra?
         </h2>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-5">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center">
               
               {/* Circle Icon Background */}
-              <div className="w-20 h-20 rounded-full bg-[#EFECE3] flex items-center justify-center mb-5 text-[#5A6B4E]">
+              <div className="w-20 h-20 rounded-full bg-[#EFECE3] flex items-center justify-center mb-5 text-[#352512]">
                 {feature.icon}
               </div>
               
